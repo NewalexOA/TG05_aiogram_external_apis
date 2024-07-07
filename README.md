@@ -69,14 +69,14 @@ This educational project is a Telegram bot that interacts with external APIs to 
 
 1. Clone the repository:
    ```bash
-  git clone https://github.com/NewalexOA/TG05_aiogram_external_apis.git
+   git clone https://github.com/NewalexOA/TG05_aiogram_external_apis.git
    ```
-
+   
 2. Navigate to the project directory:
    ```bash
    cd TG05_aiogram_external_apis
    ```
-
+   
 3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
