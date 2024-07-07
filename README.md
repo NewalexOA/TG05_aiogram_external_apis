@@ -37,11 +37,11 @@
    pip install -r requirements.txt
    ```
 
-   4. Создайте файл конфигурации `config.py` и добавьте ваши токены. Для получения RAPIDAPI_KEY зарегистрируйтесь на [RapidAPI](https://rapidapi.com/rahilkhan224/api/text-to-speech-neural-google) и подпишитесь на нужный API сервис:
-      ```plaintext
-      BOT_TOKEN = 'your_telegram_bot_token'
-      RAPIDAPI_KEY = 'your_rapidapi_key'
-      ```
+4. Создайте файл конфигурации `config.py` и добавьте ваши токены. Для получения RAPIDAPI_KEY зарегистрируйтесь на [RapidAPI](https://rapidapi.com/rahilkhan224/api/text-to-speech-neural-google) и подпишитесь на нужный API сервис:
+   ```plaintext
+   BOT_TOKEN = 'your_telegram_bot_token'
+   RAPIDAPI_KEY = 'your_rapidapi_key'
+   ```
 
 5. Запустите бота:
    ```bash
