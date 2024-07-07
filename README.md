@@ -20,6 +20,17 @@
 - Аудио файл отправляется пользователю в ответ на его сообщение.
 - После отправки аудио файл удаляется.
 
+### Структура проекта
+
+Проект состоит из следующих файлов и директорий:
+
+- `main.py`: Главный файл для запуска бота. Инициализирует бота и диспетчер, устанавливает команды и запускает опрос обновлений.
+- `config.py`: Файл конфигурации, содержащий токены и ключи доступа.
+- `handlers.py`: Содержит обработчики команд и сообщений бота.
+- `api_requests.py`: Содержит функции для запросов к внешнему API.
+- `requirements.txt`: Список зависимостей проекта.
+
+
 ### Установка и запуск
 
 1. Клонируйте репозиторий:
@@ -64,6 +75,16 @@ This educational project is a Telegram bot that interacts with external APIs to 
 - The bot uses an external API to convert the text to an audio format.
 - The audio file is sent back to the user in response to their message.
 - The audio file is deleted after sending.
+
+### Project Structure
+
+The project consists of the following files and directories:
+
+- `main.py`: The main file for running the bot. It initializes the bot and dispatcher, sets commands, and starts polling for updates.
+- `config.py`: Configuration file containing the bot tokens and access keys.
+- `handlers.py`: Contains handlers for bot commands and messages.
+- `api_requests.py`: Contains functions for making requests to the external API.
+- `requirements.txt`: List of project dependencies.
 
 ### Installation and Run
 
